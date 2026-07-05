@@ -36,7 +36,7 @@ class Solution {
             cnt+=z[1];
         }
         int[] ans=new int[]{(a+no)%mod,cnt%mod};
-        dp[i][j]=new int[]{ans[0],ans[1]};
+        dp[i][j]=ans;
         return ans;
     }
     public int[] pathsWithMaxScore(List<String> board) {
