@@ -7,12 +7,9 @@ class Solution {
         {
             if(!hm.containsKey(nums[r]))
             {
-                hm.put(nums[r],hm.getOrDefault(nums[r],0)+1);
+                hm.put(nums[r],0);
             }
-            else
-            {
-                hm.put(nums[r],hm.get(nums[r])+1);
-            }
+            hm.put(nums[r],hm.get(nums[r])+1);
             while(hm.get(nums[r])>k)
             {
                 hm.put(nums[l],hm.get(nums[l])-1);
