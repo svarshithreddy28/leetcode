@@ -1,7 +1,7 @@
 class Solution {
     public int rec(int l,int r,int[] pre,int[][] dp)
     {
-        if(l>=r)
+        if(l==r)
         {
             return 0;
         }
@@ -24,7 +24,7 @@ class Solution {
             }
             else
             {
-                ans=Math.max(ans,lsum+Math.max(rec(l,k,pre,dp),rec(k+1,r,pre,dp)));
+                ans=Math.max(ans,rsum+Math.max(rec(l,k,pre,dp),rec(k+1,r,pre,dp)));
             }
         }
         return dp[l][r]=ans;
