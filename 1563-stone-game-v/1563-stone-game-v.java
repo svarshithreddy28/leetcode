@@ -37,10 +37,31 @@ class Solution {
         {
             pre[i+1]=pre[i]+stoneValue[i];
         }
-        for(int i=0;i<=n;i++)
+        for(int l=n-1;l>=0;l--)
         {
-            Arrays.fill(dp[i],-1);
+            for(int r=l+1;r<n;r++)
+            {
+                int ans=0;
+                for(int k=l;k<r;k++)
+                {
+                    int lsum=pre[k+1]-pre[l];
+                    int rsum=pre[r+1]-pre[k+1];
+                    if(lsum<rsum)
+                    {
+                        ans=Math.max(ans,lsum+dp[l][k]);
+                    }
+                    else if(lsum>rsum)
+                    {
+                        ans=Math.max(ans,rsum+dp[k+1][r]);
+                    }
+                    else
+                    {
+                        ans=Math.max(ans,rsum+Math.max(dp[l][k],dp[k+1][r]));
+                    }
+                }
+                dp[l][r]=ans;
+            }
         }
-        return rec(0,n-1,pre,dp);
+        return dp[0][n-1];
     }
 }
