@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3513-number-of-unique-xor-triplets-i](https://github.com/svarshithreddy28/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/svarshithreddy28/leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/svarshithreddy28/leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/svarshithreddy28/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -30,12 +31,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/svarshithreddy28/leetcode/tree/master/1406-stone-game-iii) |
 | [1563-stone-game-v](https://github.com/svarshithreddy28/leetcode/tree/master/1563-stone-game-v) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/svarshithreddy28/leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/svarshithreddy28/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Matrix
 |  |
 | ------- |
 | [1301-number-of-paths-with-max-score](https://github.com/svarshithreddy28/leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/svarshithreddy28/leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/svarshithreddy28/leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/svarshithreddy28/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Sorting
 |  |
 | ------- |
@@ -83,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/svarshithreddy28/leetcode/tree/master/1386-cinema-seat-allocation) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/svarshithreddy28/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/svarshithreddy28/leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/svarshithreddy28/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Enumeration
 |  |
 | ------- |
